@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    padding-top: 40px;
+}
+
+header p{
+    padding-bottom: 40px;
+    padding-top: 5px;
+}
+
+body{
+    background-image: url(https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/05/corinthians-campanha-lgbt-1-e1684345850421.png?w=1200&h=900&crop=0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section, aside{
+    max-width: 600px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: auto;
+    margin-top: 60px;
+    border-radius: 10px;
+}
+
+section img{
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.677);
+    border-radius: 10px;
+}
+
+section p{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+section h1, h2{
+    margin: 10px 0px;
+}
+
+section ul, li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+aside {
+    background-color: #f1ecb5; 
+    border: 2px solid #ffcc00; 
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 60px;
+    box-shadow: 0px 0px 15px rgba(181, 0, 0, 0.549);
+}
+
+aside h1 {
+    background-color: #ecc112;
+    color: #000;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.382);
+}
+
+aside h1::before {
+    content: "⚠ "; 
+}
+
+aside h2 {
+    margin-top: 15px;
+    color: #b30000;
+}
+
+aside ul {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+aside ul li {
+    margin-bottom: 8px;
+}
+
+aside p {
+    text-align: justify;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+#palmeiras{
+color: rgb(1, 72, 1);
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+
